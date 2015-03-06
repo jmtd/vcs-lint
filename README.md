@@ -13,7 +13,7 @@ Debian packaging specific:
 I originally wrote this intending it to be used with Joey Hess's
 [mr](https://joeyh.name/code/mr/) ("my repos") tool.
 
-# Example
+## Example
 
     $ mr-lint wd/debian/bup
     wd/debian/bup: local branches not present in origin: rescue-diverge
@@ -22,7 +22,7 @@ I originally wrote this intending it to be used with Joey Hess's
     wd/debian/bup: 5 missing upstream tags: 0.21, 0.17b, 0.20, 0.24b, 0.14a
     wd/debian/bup: 3 missing debian tags: debian/0.17b-1, debian/0.20-2, debian/0.21-1
 
-# using with `mr`
+## using with `mr`
 
 From memory, I think you add something like this to the `[DEFAULT]` section of your `~/.mrconfig`:
 
