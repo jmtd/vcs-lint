@@ -15,7 +15,7 @@ I originally wrote this intending it to be used with Joey Hess's
 
 ## Example
 
-    $ mr-lint wd/debian/bup
+    $ vcs-lint wd/debian/bup
     wd/debian/bup: local branches not present in origin: rescue-diverge
     wd/debian/bup: local branch debian does not match origin branch debian
     wd/debian/bup: local branch master does not match origin branch master
